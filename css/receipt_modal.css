@@ -1,0 +1,45 @@
+.receipt_modal{
+  display: none;
+  background-color: rgba(0,0, 0, .4);
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  }
+  .receipt_modal_content{
+    background-color: #FFC700;
+    margin: 0;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  .receipt_modal_content header{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+  .receipt_modal_content label{
+    font-size: 16px;
+  }
+  .receipt_modal_content form input{
+    font-size: 16px;
+    padding: 2px;
+    margin: 10px;
+  }
+  .receipt_modal_content h1{
+    margin: 10px;
+    text-align: center;
+  }
+  .receipt_modal_content .btnA{
+    display: flex;
+    margin-top: 10px;
+  }
+  .receipt_modal_content .wrapper hr{
+    margin: 10px;
+    border-top: 1px solid #FFC700;
+  }
+  .receipt_modal_content button{
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+  }
